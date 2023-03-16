@@ -1,0 +1,85 @@
+<!-- this is for notetaking -->
+
+<!DOCTYPE html>
+<!-- this his how we declare the document type -->
+
+<!-- tell the browser what version of html we are using. Currently using HTML5 -->
+
+<html lang="en" dir="ltr">
+  <!-- thie HTML tag tells the browser everything between the HTML opening and closing angular brackets will be HTML code -->
+  
+  <head>
+    <!-- the HEAD holds information about the webpage -->
+    <!-- tells the broswer how we should handle the page -->
+
+    <meta charset="utf-8">
+    <!-- charset  means character set -->
+    <!-- meta data = associated data -->
+    <!-- UTF 8 is the standard in coding if using HTML5 -->
+    <!-- includes all international symbols, avoids MOJIBAKE(spellcheck) -->
+    <!-- uncludes all codes from Unicode Character Set -->
+    <!-- visit unicode character set -->
+    <!-- the meta tags tell the broswer how it should render or display the webpage and also give information to  search engines about the contents of the webiste -->
+    
+    <title>Drop-down profile menu</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="hero">
+        <nav>
+            <label for="logo" class="logo">@codeByKelvin</label>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+            <img src="images/325158115_1184237728887844_4959430789771688795_n.jpg" alt="logo" class="user-pic" onclick="toggleMenu()">
+
+            <div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu">
+                    <div class="user-info">
+                        <img src="images/IMG-1541.JPG" alt="coding and cake">
+                        <h2>Kelvin R. Tobias</h2>
+                    </div>
+                    <hr>
+
+                    <a href="#" class="sub-menu-link">
+                        <img src="images/profile.png" alt="">
+                        <p>Edit Profile</p>
+                        <span>></span>
+                    </a>
+
+                    <a href="#" class="sub-menu-link">
+                        <img src="images/setting.png" alt="">
+                        <p>Settings & Privacy</p>
+                        <span>></span>
+                    </a>
+
+                    <a href="#" class="sub-menu-link">
+                        <img src="images/help.png" alt="">
+                        <p>Help & Support</p>
+                        <span>></span>
+                    </a>
+
+                    <a href="#" class="sub-menu-link">
+                        <img src="images/logout.png" alt="">
+                        <p>logout</p>
+                        <span>></span>
+                    </a>
+
+
+                </div>
+            </div>
+        </nav>
+
+
+    </div>
+
+<script src="index.js">
+
+</script>
+  </body>
+ 
+ 
+</html>
